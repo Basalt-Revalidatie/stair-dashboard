@@ -1,5 +1,5 @@
 # Build the static files
-FROM node:20 as builder
+FROM node:21 as builder
 
 WORKDIR /app
 
