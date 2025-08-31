@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 email-validator = "^2.0.0-post.0"
-eventlet = "^0.34.0"
+eventlet = "^0.40.0"
 flask = "^3.0.0"
 flask-login = "^0.6.2"
 flask-socketio = "^5.3.6"
