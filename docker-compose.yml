@@ -8,7 +8,7 @@ volumes:
 services:
   # MQTT broker
   emqx:
-    image: emqx:5.4
+    image: emqx:5.8
     container_name: stair_challenge_emqx
     deploy:
       resources:
