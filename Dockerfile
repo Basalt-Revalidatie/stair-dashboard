@@ -10,7 +10,7 @@ COPY ./app/static /app/static
 RUN cd /app/static && npm run build
 
 # Build the Flask application
-FROM python:3.11-alpine
+FROM python:3.14-alpine
 
 RUN apk update && apk add \
     python3-dev \
