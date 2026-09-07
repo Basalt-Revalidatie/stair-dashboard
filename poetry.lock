@@ -213,13 +213,13 @@ idna = ">=2.0.0"
 
 [[package]]
 name = "eventlet"
-version = "0.40.3"
+version = "0.41.2"
 description = "Highly concurrent networking library"
 optional = false
-python-versions = ">=3.9"
+python-versions = ">=3.10"
 files = [
-    {file = "eventlet-0.40.3-py3-none-any.whl", hash = "sha256:e681cae6ee956cfb066a966b5c0541e734cc14879bda6058024104790595ac9d"},
-    {file = "eventlet-0.40.3.tar.gz", hash = "sha256:290852db0065d78cec17a821b78c8a51cafb820a792796a354592ae4d5fceeb0"},
+    {file = "eventlet-0.41.2-py3-none-any.whl", hash = "sha256:6cae50e67fe6ae8bb7013e7fd4d8e0d0d20aeb9b3259b93f023c93eb6749631f"},
+    {file = "eventlet-0.41.2.tar.gz", hash = "sha256:721b86b77fca33a735598292022ac6feef99747bf48f52defdada6b572acd5af"},
 ]
 
 [package.dependencies]
@@ -1254,4 +1254,4 @@ dev = ["doc8", "flake8", "flake8-import-order", "rstcheck[sphinx]", "sphinx"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "2dc0b15cbe497086d2aae73903fdd5d771d2bb7a7fb506217673a8223ab5b519"
+content-hash = "518dd59a4980fdfaa029ab5cc08f9ecffe48753ff095905946b27c89e92386de"
